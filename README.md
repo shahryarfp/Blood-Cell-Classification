@@ -12,10 +12,15 @@ This repository presents a solution for automated blood cell classification usin
 ## Key Features
 
 - **Data Preprocessing**: Removal of duplicate and invalid images using perceptual hashing.
-- **Advanced Augmentation**: Techniques such as RandAugment, AugMix, MixUp, CutMix, and Gaussian noise.
+- **Advanced Augmentation**: A variety of augmentation techniques were used to enhance model generalization, including:
+  - **RandAugment**: Applying a fixed number of random augmentations for increased data diversity.
+  - **AugMix**: Combining multiple augmentation chains while enforcing consistency in model predictions.
+  - **MixUp**: Generating new training samples by interpolating between pairs of images and labels.
+  - **CutMix**: Creating mixed images by blending patches from different samples.
+  - **Gaussian Noise**: Adding noise to simulate sensor imperfections and enhance robustness.
 - **Performance Metrics**:
   - **Validation Accuracy**: 99%
-  - **Codabench Accuracy**: 81%
+  - **Codabench Accuracy**: 81% (The discrepancy in accuracy is due to significant differences between the Codabench test data and our validation set, making it much more challenging for the model to generalize effectively.)
 
 ## Repository Contents
 
