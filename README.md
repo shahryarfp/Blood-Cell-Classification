@@ -30,7 +30,7 @@ Below is an example of each of the eight classes of blood cells used in this pro
 ### Model Evaluation
 Below is the confusion matrix generated during validation, providing detailed insights into the classification performance for each class:
 
-![Confusion Matrix](confusion_matrix.jpg)
+<img src="confusion_matrix.jpg" alt="Confusion Matrix" width="500"/>
 
 ## Repository Contents
 
