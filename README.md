@@ -9,6 +9,11 @@ This repository presents a solution for automated blood cell classification usin
   - Basophil, Eosinophil, Erythroblast, Immature Granulocytes, Lymphocyte, Monocyte, Neutrophil, Platelet.
 - **Model**: Leveraging EfficientNetB3, fine-tuned with advanced augmentation techniques for robust performance.
 
+### Blood Cell Classes
+Below is an example of each of the eight classes of blood cells used in this project:
+
+![Blood Cell Classes](class_examples.png)
+
 ## Key Features
 
 - **Data Preprocessing**: Removal of duplicate and invalid images using perceptual hashing.
