@@ -12,7 +12,7 @@ This repository presents a solution for automated blood cell classification usin
 ### Blood Cell Classes
 Below is an example of each of the eight classes of blood cells used in this project:
 
-![Blood Cell Classes](blood_cells.jpg)
+![Blood Cell Classes](Blood_cells.jpg)
 
 ## Key Features
 
