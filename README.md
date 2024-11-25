@@ -1,34 +1,28 @@
 # Blood Cell Classification with Deep Learning
 
-This repository contains the implementation and report for the Blood Cell Classification project. The project applies deep learning techniques to classify blood cells into eight categories using an EfficientNetB3 model and advanced augmentation techniques.
+This repository presents a solution for automated blood cell classification using deep learning, aimed at improving the efficiency and accuracy of medical diagnostics.
 
-## Project Highlights
+## Overview
 
-- **Objective**: Automate blood cell classification to assist medical diagnostics.
-- **Dataset**: 13,759 images (96x96 resolution) across eight classes.
-- **Model**: EfficientNetB3 with custom classification layers.
-- **Techniques**: Advanced data augmentation (RandAugment, AugMix, MixUp, CutMix, Gaussian Noise).
-- **Performance**:
-  - Validation Accuracy: 99%
-  - Codabench Accuracy: 81%
+- **Goal**: Classify blood cells into eight categories using machine learning, eliminating the need for manual examination.
+- **Dataset**: 13,759 images (96x96 resolution) across the following classes:
+  - Basophil, Eosinophil, Erythroblast, Immature Granulocytes, Lymphocyte, Monocyte, Neutrophil, Platelet.
+- **Model**: Leveraging EfficientNetB3, fine-tuned with advanced augmentation techniques for robust performance.
 
-## Files in the Repository
+## Key Features
 
-- `Blood Cell Classification.ipynb`: Jupyter notebook for the project, including preprocessing, augmentation, and model training.
-- `DataDreamers_ANN_Report.pdf`: Detailed report outlining the project's methods, results, and conclusions.
+- **Data Preprocessing**: Removal of duplicate and invalid images using perceptual hashing.
+- **Advanced Augmentation**: Techniques such as RandAugment, AugMix, MixUp, CutMix, and Gaussian noise.
+- **Performance Metrics**:
+  - **Validation Accuracy**: 99%
+  - **Codabench Accuracy**: 81%
 
-## Running the Code
+## Repository Contents
 
-### Requirements
-- Python 3.x
-- TensorFlow/Keras
-- scikit-learn
-- KerasCV
+- `Blood Cell Classification.ipynb`: Notebook containing the complete workflow including data preprocessing, augmentation, model training, and evaluation.
+- `DataDreamers_ANN_Report.pdf`: Detailed report describing the project approach, methodology, and results.
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/bloodcell-classification.git
-2. Install dependencies:
-pip install -r requirements.txt
-Open and run the Blood Cell Classification.ipynb notebook.
+## Acknowledgments
+
+This project was conducted as part of the Artificial Neural Networks and Deep Learning (AN2DL) coursework.
+Feel free to reach out for any questions or discussions related to the project.
