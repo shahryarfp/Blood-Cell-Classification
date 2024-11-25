@@ -5,7 +5,7 @@ This repository presents a solution for automated blood cell classification usin
 ## Overview
 
 - **Goal**: Classify blood cells into eight categories using machine learning, eliminating the need for manual examination.
-- **Dataset**: 13,759 images (96x96 resolution) across the following classes:
+- **Dataset**: 13,759 RGB images (96x96 resolution) across the following classes:
   - Basophil, Eosinophil, Erythroblast, Immature Granulocytes, Lymphocyte, Monocyte, Neutrophil, Platelet.
 - **Model**: Leveraging EfficientNetB3, fine-tuned with advanced augmentation techniques for robust performance.
 
