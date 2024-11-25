@@ -12,7 +12,7 @@ This repository presents a solution for automated blood cell classification usin
 ### Blood Cell Classes
 Below is an example of each of the eight classes of blood cells used in this project:
 
-![Blood Cell Classes](Blood_cells.jpg)
+![Blood Cell Classes](‌Blood_cells.jpg)
 
 ## Key Features
 
@@ -26,6 +26,11 @@ Below is an example of each of the eight classes of blood cells used in this pro
 - **Performance Metrics**:
   - **Validation Accuracy**: 99%
   - **Codabench Accuracy**: 81% (The discrepancy in accuracy is due to significant differences between the Codabench test data and our validation set, making it much more challenging for the model to generalize effectively.)
+
+### Model Evaluation
+Below is the confusion matrix generated during validation, providing detailed insights into the classification performance for each class:
+
+![Confusion Matrix](confusion_matrix.jpg)
 
 ## Repository Contents
 
